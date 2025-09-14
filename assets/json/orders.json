@@ -1,0 +1,131 @@
+[
+	{
+		"name": "Carcharhiniformes",
+		"type": "Tiburón",
+		"location": [
+			"Océano Pacífico",
+			"Mar Caribe"
+		],
+		"dicho_keys": [
+			"1b", "5b"
+		]
+	},
+	{
+		"name": "Lamniformes",
+		"type": "Tiburón",
+		"location": [
+			"Océano Pacífico",
+			"Mar Caribe"
+		],
+		"dicho_keys": [
+
+		]
+	},
+	{
+		"name": "Squaliformes",
+		"type": "Tiburón",
+		"location": [
+			"Mar Caribe"
+		],
+		"dicho_keys": [
+
+		]
+	},
+	{
+		"name": "Echinorhiniformes",
+		"type": "Tiburón",
+		"location": [
+			"Mar Caribe"
+		],
+		"dicho_keys": [
+
+		]
+	},
+	{
+		"name": "Orectolobiformes",
+		"type": "Tiburón",
+		"location": [
+			"Océano Pacífico",
+			"Mar Caribe"
+		],
+		"dicho_keys": [
+			
+		]
+	},
+	{
+		"name": "Heterodontiformes",
+		"type": "Tiburón",
+		"location": [
+			"Océano Pacífico"
+		],
+		"dicho_keys": [
+
+		]
+	},
+	{
+		"name": "Hexanchiformes",
+		"type": "Tiburón",
+		"location": [
+			"Océano Pacífico",
+			"Mar Caribe"
+		],
+		"dicho_keys": [
+
+		]
+	},
+	{
+		"name": "Squatiniformes",
+		"type": "Tiburón",
+		"location": [
+			"Océano Pacífico",
+			"Mar Caribe"
+		],
+		"dicho_keys": [
+
+		]
+	},
+	{
+		"name": "Myliobatiformes",
+		"type": "Raya",
+		"location": [
+			"Océano Pacífico",
+			"Mar Caribe"
+		],
+		"dicho_keys": [
+
+		]
+	},
+	{
+		"name": "Rajiformes",
+		"type": "Raya",
+		"location": [
+			"Océano Pacífico",
+			"Mar Caribe"
+		],
+		"dicho_keys": [
+
+		]
+	},
+	{
+		"name": "Rhinopristiformes",
+		"type": "Raya",
+		"location": [
+			"Océano Pacífico",
+			"Mar Caribe"
+		],
+		"dicho_keys": [
+
+		]
+	},
+	{
+		"name": "Torpediniformes",
+		"type": "Raya",
+		"location": [
+			"Océano Pacífico",
+			"Mar Caribe"
+		],
+		"dicho_keys": [
+			
+		]
+	}
+]

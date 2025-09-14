@@ -1,0 +1,386 @@
+[
+	{
+		"name": "Alopiidae",
+		"type": "Tiburón",
+		"order": "Lamniformes",
+		"dicho_keys": [
+
+		],
+		"location": [
+            "Océano Pacífico",
+            "Mar Caribe"
+        ]
+	},
+	{
+		"name": "Carcharhinidae",
+		"type": "Tiburón",
+		"order": "Carcharhiniformes",
+		"dicho_keys": [
+
+		],
+		"location": [
+            "Océano Pacífico",
+            "Mar Caribe"
+        ]
+	},
+	{
+		"name": "Centrophoridae",
+		"type": "Tiburón",
+		"order": "Squaliformes",
+		"dicho_keys": [
+
+		],
+		"location": [
+            "Mar Caribe"
+        ]
+	},
+	{
+		"name": "Echinorhinidae",
+		"type": "Tiburón",
+		"order": "Echinorhiniformes",
+		"dicho_keys": [
+
+		],
+		"location": [
+            "Mar Caribe"
+        ]
+	},
+	{
+		"name": "Etmopteridae",
+		"type": "Tiburón",
+		"order": "Squaliformes",
+		"dicho_keys": [
+
+		],
+		"location": [
+            "Mar Caribe"
+        ]
+	},
+	{
+		"name": "Ginglymostomatidae",
+		"type": "Tiburón",
+		"order": "Orectolobiformes",
+		"dicho_keys": [
+
+		],
+		"location": [
+            "Océano Pacífico",
+            "Mar Caribe"
+        ]
+	},
+	{
+		"name": "Heterodontidae",
+		"type": "Tiburón",
+		"order": "Heterodontiformes",
+		"dicho_keys": [
+
+		],
+		"location": [
+            "Océano Pacífico"
+        ]
+	},
+	{
+		"name": "Hexanchidae",
+		"type": "Tiburón",
+		"order": "Hexanchiformes",
+		"dicho_keys": [
+
+		],
+		"location": [
+            "Océano Pacífico",
+            "Mar Caribe"
+        ]
+	},
+	{
+		"name": "Lamnidae",
+		"type": "Tiburón",
+		"order": "Lamniformes",
+		"dicho_keys": [
+
+		],
+		"location": [
+            "Océano Pacífico",
+            "Mar Caribe"
+        ]
+	},
+	{
+		"name": "Mitsukurinidae",
+		"type": "Tiburón",
+		"order": "Lamniformes",
+		"dicho_keys": [
+
+		],
+		"location": [
+            "Mar Caribe"
+        ]
+	},
+	{
+		"name": "Odontaspidae",
+		"type": "Tiburón",
+		"order": "Orectolobiformes",
+		"dicho_keys": [
+
+		],
+		"location": [
+            "Océano Pacífico"
+        ]
+	},
+	{
+		"name": "Rhincodontidae",
+		"type": "Tiburón",
+		"order": "Orectolobiformes",
+		"dicho_keys": [
+
+		],
+		"location": [
+            "Océano Pacífico",
+            "Mar Caribe"
+        ]
+	},
+	{
+		"name": "Scyliorhinidae",
+		"type": "Tiburón",
+		"order": "Carcharhiniformes",
+		"dicho_keys": [
+
+		],
+		"location": [
+            "Océano Pacífico",
+            "Mar Caribe"
+        ]
+	},
+	{
+		"name": "Somniosidae",
+		"type": "Tiburón",
+		"order": "Squaliformes",
+		"dicho_keys": [
+
+		],
+		"location": [
+            "Mar Caribe"
+        ]
+	},
+	{
+		"name": "Sphyrnidae",
+		"type": "Tiburón",
+		"order": "Carcharhiniformes",
+		"dicho_keys": [
+
+		],
+		"location": [
+            "Océano Pacífico",
+            "Mar Caribe"
+        ]
+	},
+	{
+		"name": "Squalidae",
+		"type": "Tiburón",
+		"order": "Squaliformes",
+		"dicho_keys": [
+
+		],
+		"location": [
+            "Mar Caribe"
+        ]
+	},
+	{
+		"name": "Squatinidae",
+		"type": "Tiburón",
+		"order": "Squatiniformes",
+		"dicho_keys": [
+
+		],
+		"location": [
+            "Océano Pacífico",
+            "Mar Caribe"
+        ]
+	},
+	{
+		"name": "Triakidae",
+		"type": "Tiburón",
+		"order": "Carcharhiniformes",
+		"dicho_keys": [
+
+		],
+		"location": [
+            "Océano Pacífico",
+            "Mar Caribe"
+        ]
+	},
+	{
+		"name": "Aetobatidae",
+		"type": "Raya",
+		"order": "Myliobatiformes",
+		"dicho_keys": [
+
+		],
+		"location": [
+            "Océano Pacífico",
+            "Mar Caribe"
+        ]
+	},
+	{
+		"name": "Anacanthobatidae",
+		"type": "Raya",
+		"order": "Rajiformes",
+		"dicho_keys": [
+
+		],
+		"location": [
+            "Mar Caribe"
+        ]
+	},
+	{
+		"name": "Dasyatidae",
+		"type": "Raya",
+		"order": "Myliobatiformes",
+		"dicho_keys": [
+
+		],
+		"location": [
+            "Océano Pacífico",
+            "Mar Caribe"
+        ]
+	},
+	{
+		"name": "Gurgesiellidae",
+		"type": "Raya",
+		"order": "Rajiformes",
+		"dicho_keys": [
+
+		],
+		"location": [
+            "Mar Caribe"
+        ]
+	},
+	{
+		"name": "Gymnuridae",
+		"type": "Raya",
+		"order": "Myliobatiformes",
+		"dicho_keys": [
+
+		],
+		"location": [
+            "Océano Pacífico"
+        ]
+	},
+	{
+		"name": "Mobulidae",
+		"type": "Raya",
+		"order": "Myliobatiformes",
+		"dicho_keys": [
+
+		],
+		"location": [
+            "Océano Pacífico",
+            "Mar Caribe"
+        ]
+	},
+	{
+		"name": "Narcinidae",
+		"type": "Raya",
+		"order": "Torpediniformes",
+		"dicho_keys": [
+
+		],
+		"location": [
+            "Océano Pacífico",
+            "Mar Caribe"
+        ]
+	},
+	{
+		"name": "Potamotrygonidae",
+		"type": "Raya",
+		"order": "Myliobatiformes",
+		"dicho_keys": [
+
+		],
+		"location": [
+            "Océano Pacífico",
+            "Mar Caribe"
+        ]
+	},
+	{
+		"name": "Pristidae",
+		"type": "Raya",
+		"order": "Rhinopristiformes",
+		"dicho_keys": [
+
+		],
+		"location": [
+            "Océano Pacífico",
+            "Mar Caribe"
+        ]
+	},
+	{
+		"name": "Rajidae",
+		"type": "Raya",
+		"order": "Rajiformes",
+		"dicho_keys": [
+
+		],
+		"location": [
+            "Océano Pacífico",
+            "Mar Caribe"
+        ]
+	},
+	{
+		"name": "Rhinobatidae",
+		"type": "Raya",
+		"order": "Rhinopristiformes",
+		"dicho_keys": [
+
+		],
+		"location": [
+            "Océano Pacífico",
+            "Mar Caribe"
+        ]
+	},
+	{
+		"name": "Rhinopteridae",
+		"type": "Raya",
+		"order": "Myliobatiformes",
+		"dicho_keys": [
+
+		],
+		"location": [
+            "Océano Pacífico",
+            "Mar Caribe"
+        ]
+	},
+	{
+		"name": "Torpedinidae",
+		"type": "Raya",
+		"order": "Torpediniformes",
+		"dicho_keys": [
+
+		],
+		"location": [
+            "Océano Pacífico",
+            "Mar Caribe"
+        ]
+	},
+	{
+		"name": "Trygonorrhinidae",
+		"type": "Raya",
+		"order": "Rhinopristiformes",
+		"dicho_keys": [
+
+		],
+		"location": [
+            "Océano Pacífico"
+        ]
+	},
+	{
+		"name": "Urotrygonidae",
+		"type": "Raya",
+		"order": "Myliobatiformes",
+		"dicho_keys": [
+
+		],
+		"location": [
+            "Océano Pacífico",
+            "Mar Caribe"
+        ]
+	}
+]

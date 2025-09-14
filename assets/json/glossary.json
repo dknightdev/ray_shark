@@ -1,0 +1,50 @@
+[
+	{
+		"word": "Ejemplo",
+		"definition": "Example is a representative form or pattern"
+	},
+	{
+		"word": "Prueba",
+		"definition": "Test is a procedure intended to establish the quality, performance, or reliability of something"
+	},
+	{
+		"word": "Desarrollo",
+		"definition": "Desarrollo is the process of developing or being developed"
+	},
+	{
+		"word": "Código",
+		"definition": "Código is a system of words, letters, figures, or symbols used to represent others"
+	},
+	{
+		"word": "Aplicación",
+		"definition": "Aplicación is a formal request to an authority for something"
+	},
+	{
+		"word": "Interfaz",
+		"definition": "Interfaz is a point where two systems, subjects, organizations, etc. meet and interact"
+	},
+	{
+		"word": "Usuario",
+		"definition": "Usuario is a person who uses or operates something"
+	},
+	{
+		"word": "Sistema",
+		"definition": "Sistema is a set of connected things or parts forming a complex whole"
+	},
+	{
+		"word": "Función",
+		"definition": "Función is an activity or purpose natural to or intended for a person or thing"
+	},
+	{
+		"word": "Variable",
+		"definition": "Variable is an element, feature, or factor that is liable to vary or change"
+	},
+	{
+		"word": "Objeto",
+		"definition": "Objeto is a material thing that can be seen and touched"
+	},
+	{
+		"word": "Clase",
+		"definition": "Clase is a set or category of things having some property or attribute in common, typically used to denote a division of society, such as a social class, or a division of animals or plants, such as a taxonomic class, or a division of programming code, such as a class in object-oriented programming"
+	}
+]

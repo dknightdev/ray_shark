@@ -1,0 +1,699 @@
+[
+    {
+        "name": "Alopias",
+        "family": "Alopiidae",
+        "type": "Tiburón",
+        "order": "Lamniformes",
+        "dicho_keys": [
+
+		],
+		"location": [
+            "Océano Pacífico",
+            "Mar Caribe"
+        ]
+    },
+    {
+        "name": "Carcharhinus",
+        "family": "Carcharhinidae",
+        "type": "Tiburón",
+        "order": "Carcharhiniformes",
+        "dicho_keys": [
+
+		],
+		"location": [
+            "Océano Pacífico",
+            "Mar Caribe"
+        ]
+    },
+    {
+        "name": "Rhizoprionodon",
+        "family": "Carcharhinidae",
+        "type": "Tiburón",
+        "order": "Carcharhiniformes",
+        "dicho_keys": [
+
+		],
+		"location": [
+            "Mar Caribe",
+            "Océano Pacífico"
+        ]
+    },
+    {
+        "name": "Nasolamia",
+        "family": "Carcharhinidae",
+        "type": "Tiburón",
+        "order": "Carcharhiniformes",
+        "dicho_keys": [
+
+		],
+		"location": [
+            "Océano Pacífico"
+        ]
+    },
+    {
+        "name": "Galeocerdo",
+        "family": "Carcharhinidae",
+        "type": "Tiburón",
+        "order": "Carcharhiniformes",
+        "dicho_keys": [
+
+		],
+		"location": [
+            "Océano Pacífico",
+            "Mar Caribe"
+        ]
+    },
+    {
+        "name": "Negaprion",
+        "family": "Carcharhinidae",
+        "type": "Tiburón",
+        "order": "Carcharhiniformes",
+        "dicho_keys": [
+
+		],
+		"location": [
+            "Océano Pacífico",
+            "Mar Caribe"
+        ]
+    },
+    {
+        "name": "Triaenodon",
+        "family": "Carcharhinidae",
+        "type": "Tiburón",
+        "order": "Carcharhiniformes",
+        "dicho_keys": [
+
+		],
+		"location": [
+            "Océano Pacífico"
+        ]
+    },
+    {
+        "name": "Prionace",
+        "family": "Carcharhinidae",
+        "type": "Tiburón",
+        "order": "Carcharhiniformes",
+        "dicho_keys": [
+
+		],
+		"location": [
+            "Océano Pacífico",
+            "Mar Caribe"
+        ]
+    },
+    {
+        "name": "Centrophorus",
+        "family": "Centrophoridae",
+        "type": "Tiburón",
+        "order": "Squaliformes",
+        "dicho_keys": [
+
+		],
+		"location": [
+            "Mar Caribe"
+        ]
+    },
+    {
+        "name": "Echinorhinus",
+        "family": "Echinorhinidae",
+        "type": "Tiburón",
+        "order": "Echinorhiniformes",
+        "dicho_keys": [
+
+		],
+		"location": [
+            "Mar Caribe"
+        ]
+    },
+    {
+        "name": "Etmopterus",
+        "family": "Etmopteridae",
+        "type": "Tiburón",
+        "order": "Squaliformes",
+        "dicho_keys": [
+
+		],
+		"location": [
+            "Mar Caribe"
+        ]
+    },
+    {
+        "name": "Ginglymostoma",
+        "family": "Ginglymostomatidae",
+        "type": "Tiburón",
+        "order": "Orectolobiformes",
+        "dicho_keys": [
+
+		],
+		"location": [
+            "Mar Caribe",
+            "Océano Pacífico"
+        ]
+    },
+    {
+        "name": "Heterodontus",
+        "family": "Heterodontidae",
+        "type": "Tiburón",
+        "order": "Heterodontiformes",
+        "dicho_keys": [
+
+		],
+		"location": [
+            "Océano Pacífico"
+        ]
+    },
+    {
+        "name": "Hexanchus",
+        "family": "Hexanchidae",
+        "type": "Tiburón",
+        "order": "Hexanchiformes",
+        "dicho_keys": [
+
+		],
+		"location": [
+            "Océano Pacífico",
+            "Mar Caribe"
+        ]
+    },
+    {
+        "name": "Heptranchias",
+        "family": "Hexanchidae",
+        "type": "Tiburón",
+        "order": "Hexanchiformes",
+        "dicho_keys": [
+
+		],
+		"location": [
+            "Mar Caribe"
+        ]
+    },
+    {
+        "name": "Notorynchus",
+        "family": "Hexanchidae",
+        "type": "Tiburón",
+        "order": "Hexanchiformes",
+        "dicho_keys": [
+
+		],
+		"location": [
+            "Océano Pacífico"
+        ]
+    },
+    {
+        "name": "Isurus",
+        "family": "Lamnidae",
+        "type": "Tiburón",
+        "order": "Lamniformes",
+        "dicho_keys": [
+
+		],
+		"location": [
+            "Océano Pacífico",
+            "Mar Caribe"
+        ]
+    },
+    {
+        "name": "Mitsukurina",
+        "family": "Mitsukurinidae",
+        "type": "Tiburón",
+        "order": "Lamniformes",
+        "dicho_keys": [
+
+		],
+		"location": [
+            "Mar Caribe"
+        ]
+    },
+    {
+        "name": "Odontanpis",
+        "family": "Odontaspidae",
+        "type": "Tiburón",
+        "order": "Orectolobiformes",
+        "dicho_keys": [
+
+		],
+		"location": [
+            "Océano Pacífico"
+        ]
+    },
+    {
+        "name": "Rhincodon",
+        "family": "Rhincodontidae",
+        "type": "Tiburón",
+        "order": "Orectolobiformes",
+        "dicho_keys": [
+
+		],
+		"location": [
+            "Océano Pacífico",
+            "Mar Caribe"
+        ]
+    },
+    {
+        "name": "Apristurus",
+        "family": "Scyliorhinidae",
+        "type": "Tiburón",
+        "order": "Carcharhiniformes",
+        "dicho_keys": [
+
+		],
+		"location": [
+            "Mar Caribe"
+        ]
+    },
+    {
+        "name": "Cephalurus",
+        "family": "Scyliorhinidae",
+        "type": "Tiburón",
+        "order": "Carcharhiniformes",
+        "dicho_keys": [
+
+		],
+		"location": [
+            "Océano Pacífico"
+        ]
+    },
+    {
+        "name": "Galeus",
+        "family": "Scyliorhinidae",
+        "type": "Tiburón",
+        "order": "Carcharhiniformes",
+        "dicho_keys": [
+
+		],
+		"location": [
+            "Mar Caribe"
+        ]
+    },
+    {
+        "name": "Schroederychthys",
+        "family": "Scyliorhinidae",
+        "type": "Tiburón",
+        "order": "Carcharhiniformes",
+        "dicho_keys": [
+
+		],
+		"location": [
+            "Mar Caribe"
+        ]
+    },
+    {
+        "name": "Scyliorhinus",
+        "family": "Scyliorhinidae",
+        "type": "Tiburón",
+        "order": "Carcharhiniformes",
+        "dicho_keys": [
+
+		],
+		"location": [
+            "Mar Caribe"
+        ]
+    },
+    {
+        "name": "Somniosus",
+        "family": "Somniosidae",
+        "type": "Tiburón",
+        "order": "Squaliformes",
+        "dicho_keys": [
+
+		],
+		"location": [
+            "Mar Caribe"
+        ]
+    },
+    {
+        "name": "Sphyrna",
+        "family": "Sphyrnidae",
+        "type": "Tiburón",
+        "order": "Carcharhiniformes",
+        "dicho_keys": [
+
+		],
+		"location": [
+            "Océano Pacífico",
+            "Mar Caribe"
+        ]
+    },
+    {
+        "name": "Squalus",
+        "family": "Squalidae",
+        "type": "Tiburón",
+        "order": "Squaliformes",
+        "dicho_keys": [
+
+		],
+		"location": [
+            "Mar Caribe"
+        ]
+    },
+    {
+        "name": "Squatina",
+        "family": "Squatinidae",
+        "type": "Tiburón",
+        "order": "Squatiniformes",
+        "dicho_keys": [
+
+		],
+		"location": [
+            "Mar Caribe",
+            "Océano Pacífico"
+        ]
+    },
+    {
+        "name": "Mustelus",
+        "family": "Triakidae",
+        "type": "Tiburón",
+        "order": "Carcharhiniformes",
+        "dicho_keys": [
+
+		],
+		"location": [
+            "Mar Caribe",
+            "Océano Pacífico"
+        ]
+    },
+    {
+        "name": "Aetobatus",
+        "family": "Aetobatidae",
+        "type": "Raya",
+        "order": "Myliobatiformes",
+        "dicho_keys": [
+
+		],
+		"location": [
+            "Mar Caribe",
+            "Océano Pacífico"
+        ]
+    },
+    {
+        "name": "Schoederobatis",
+        "family": "Anacanthobatidae",
+        "type": "Raya",
+        "order": "Rajiformes",
+        "dicho_keys": [
+
+		],
+		"location": [
+            "Mar Caribe"
+        ]
+    },
+    {
+        "name": "Springeria",
+        "family": "Anacanthobatidae",
+        "type": "Raya",
+        "order": "Rajiformes",
+        "dicho_keys": [
+
+		],
+		"location": [
+            "Mar Caribe"
+        ]
+    },
+    {
+        "name": "Hypanus",
+        "family": "Dasyatidae",
+        "type": "Raya",
+        "order": "Myliobatiformes",
+        "dicho_keys": [
+
+		],
+		"location": [
+            "Mar Caribe",
+            "Océano Pacífico"
+        ]
+    },
+    {
+        "name": "Cruriraja",
+        "family": "Gurgesiellidae",
+        "type": "Raya",
+        "order": "Rajiformes",
+        "dicho_keys": [
+
+		],
+		"location": [
+            "Mar Caribe"
+        ]
+    },
+    {
+        "name": "Gurgesiella",
+        "family": "Gurgesiellidae",
+        "type": "Raya",
+        "order": "Rajiformes",
+        "dicho_keys": [
+
+		],
+		"location": [
+            "Mar Caribe"
+        ]
+    },
+    {
+        "name": "Fenestraja",
+        "family": "Gurgesiellidae",
+        "type": "Raya",
+        "order": "Rajiformes",
+        "dicho_keys": [
+
+		],
+		"location": [
+            "Mar Caribe"
+        ]
+    },
+    {
+        "name": "Gymnura",
+        "family": "Gymnuridae",
+        "type": "Raya",
+        "order": "Myliobatiformes",
+        "dicho_keys": [
+
+		],
+		"location": [
+            "Océano Pacífico"
+        ]
+    },
+    {
+        "name": "Mobula",
+        "family": "Mobulidae",
+        "type": "Raya",
+        "order": "Myliobatiformes",
+        "dicho_keys": [
+
+		],
+		"location": [
+            "Océano Pacífico",
+            "Mar Caribe"
+        ]
+    },
+    {
+        "name": "Diplobatis",
+        "family": "Narcinidae",
+        "type": "Raya",
+        "order": "Torpediniformes",
+        "dicho_keys": [
+
+		],
+		"location": [
+            "Mar Caribe",
+            "Océano Pacífico"
+        ]
+    },
+    {
+        "name": "Narcine",
+        "family": "Narcinidae",
+        "type": "Raya",
+        "order": "Torpediniformes",
+        "dicho_keys": [
+
+		],
+		"location": [
+            "Océano Pacífico",
+            "Mar Caribe"
+        ]
+    },
+    {
+        "name": "Styracura",
+        "family": "Potamotrygonidae",
+        "type": "Raya",
+        "order": "Myliobatiformes",
+        "dicho_keys": [
+
+		],
+		"location": [
+            "Mar Caribe",
+            "Océano Pacífico"
+        ]
+    },
+    {
+        "name": "Pristis",
+        "family": "Pristidae",
+        "type": "Raya",
+        "order": "Rhinopristiformes",
+        "dicho_keys": [
+
+		],
+		"location": [
+            "Océano Pacífico",
+            "Mar Caribe"
+        ]
+    },
+    {
+        "name": "Breviraja",
+        "family": "Rajidae",
+        "type": "Raya",
+        "order": "Rajiformes",
+        "dicho_keys": [
+
+		],
+		"location": [
+            "Mar Caribe"
+        ]
+    },
+    {
+        "name": "Ragella",
+        "family": "Rajidae",
+        "type": "Raya",
+        "order": "Rajiformes",
+        "dicho_keys": [
+
+		],
+		"location": [
+            "Océano Pacífico"
+        ]
+    },
+    {
+        "name": "Rostroraja",
+        "family": "Rajidae",
+        "type": "Raya",
+        "order": "Rajiformes",
+        "dicho_keys": [
+
+		],
+		"location": [
+            "Océano Pacífico",
+            "Mar Caribe"
+        ]
+    },
+    {
+        "name": "Dactylobatus",
+        "family": "Rajidae",
+        "type": "Raya",
+        "order": "Rajiformes",
+        "dicho_keys": [
+
+		],
+		"location": [
+            "Mar Caribe"
+        ]
+    },
+    {
+        "name": "Dipterus",
+        "family": "Rajidae",
+        "type": "Raya",
+        "order": "Rajiformes",
+        "dicho_keys": [
+
+		],
+		"location": [
+            "Mar Caribe"
+        ]
+    },
+    {
+        "name": "Rajella",
+        "family": "Rajidae",
+        "type": "Raya",
+        "order": "Rajiformes",
+        "dicho_keys": [
+
+		],
+		"location": [
+            "Mar Caribe"
+        ]
+    },
+    {
+        "name": "Pseudobatus",
+        "family": "Rhinobatidae",
+        "type": "Raya",
+        "order": "Rhinopristiformes",
+        "dicho_keys": [
+
+		],
+		"location": [
+            "Mar Caribe",
+            "Océano Pacífico"
+        ]
+    },
+    {
+        "name": "Rhinoptera",
+        "family": "Rhinopteridae",
+        "type": "Raya",
+        "order": "Myliobatiformes",
+        "dicho_keys": [
+
+		],
+		"location": [
+            "Mar Caribe",
+            "Océano Pacífico"
+        ]
+    },
+    {
+        "name": "Tetronarce",
+        "family": "Torpedinidae",
+        "type": "Raya",
+        "order": "Torpediniformes",
+        "dicho_keys": [
+
+		],
+		"location": [
+            "Mar Caribe",
+            "Océano Pacífico"
+        ]
+    },
+    {
+        "name": "Zapteryx",
+        "family": "Trygonorrhinidae",
+        "type": "Raya",
+        "order": "Rhinopristiformes",
+        "dicho_keys": [
+
+		],
+		"location": [
+            "Océano Pacífico"
+        ]
+    },
+    {
+        "name": "Urobatis",
+        "family": "Urotrygonidae",
+        "type": "Raya",
+        "order": "Myliobatiformes",
+        "dicho_keys": [
+
+		],
+		"location": [
+            "Mar Caribe",
+            "Océano Pacífico"
+        ]
+    },
+    {
+        "name": "Urotrigon",
+        "family": "Urotrygonidae",
+        "type": "Raya",
+        "order": "Myliobatiformes",
+        "dicho_keys": [
+
+		],
+		"location": [
+            "Mar Caribe"
+        ]
+    },
+    {
+        "name": "Urotrygon",
+        "family": "Urotrygonidae",
+        "type": "Raya",
+        "order": "Myliobatiformes",
+        "dicho_keys": [
+
+		],
+		"location": [
+            "Océano Pacífico"
+        ]
+    }
+]

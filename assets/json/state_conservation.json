@@ -1,0 +1,47 @@
+[
+	{
+		"name": "Datos insuficientes",
+		"abbreviation": "DD",
+		"description": "Un taxón se incluye en esta categoría cuando no hay información suficiente para evaluar directa o indirectamente su riesgo de extinción"
+	},
+	{
+		"name": "Preocupación menor",
+		"abbreviation": "LC",
+		"description": "Un taxon se considera de menor preocupación si, cuando se evalúa, no cumple con los criterios que definen las categorías de en peligro, amenazado, vulnerable o en peligro de extinción."
+	},
+	{
+		"name": "Casi amenazado",
+		"abbreviation": "NT",
+		"description": "Un taxon se considera casi amenazado cuando ha sido valuado y no cumple con los criterios para en peligro, en peligro crítico y vulnerable, pero en un futuro cercano es posible que los satisfaga."
+	},
+	{
+		"name": "Vulnerable",
+		"abbreviation": "VU",
+		"description": "Un taxon se considera vulnerable cuando la evidencia disponible indica que cumple con cualquiera de los criterios A a E para vulnerable y considera que se enfrenta a un riesgo de extinción alta en vida silvestre"
+	},
+	{
+		"name": "En peligro",
+		"abbreviation": "EN",
+		"description": "Un taxon se considera en peligro cuando la evidencia disponible indica que cumple con cualquiera de los criterios A a E para En peligro y considera que se enfrenta a un riesgo de extinción muy alta en vida silvestre"
+	},
+	{
+		"name": "En peligro crítico",
+		"abbreviation": "CR",
+		"description": "Un taxon se considera en peligro crítico cuando la evidencia disponible indica que cumple con cualquiera de los criterios A a E para En peligro crítico y considera que se enfrenta a un riesgo de extinción extremadamente alto en vida silvestre"
+	},
+	{
+		"name": "Extinto en vida silvestre",
+		"abbreviation": "EW",
+		"description": "Un taxon se considera extinto en vida silvestre cuando solo sobrevive en cautiverio, si estudios exhaustivos no han logrado detectar ningún individuo"
+	},
+	{
+		"name": "Extinto",
+		"abbreviation": "EX",
+		"description": "Un taxon se considera extinto cuando la realización de prospecciones exhaustivas de sus hábitats, conocidos y/o esperados, en los momentos apropiados (diarios, estacionales, anual, no ha podido detectar un solo individuo."
+	},
+	{
+		"name": "No evaluado",
+		"abbreviation": "NE",
+		"description": "Un taxon se considera como No evaluado (NE) si aún no ha sido evaluado según los criterios, las especies no evaluadas (NE) no están publicadas en la Lista Roja de la UICN (Union Internacional para la Conservación de la Naturaleza)"
+	}
+]

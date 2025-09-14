@@ -1,0 +1,62 @@
+import { Asset } from 'expo-asset'
+
+const SPECIES_IMAGES = {
+	1: require('../../assets/images/species/shark.png'),
+	2: require('../../assets/images/species/shark.png'),
+	3: require('../../assets/images/species/shark.png'),
+	4: require('../../assets/images/species/shark.png'),
+	5: require('../../assets/images/species/shark.png'),
+	6: require('../../assets/images/species/shark.png'),
+	7: require('../../assets/images/species/shark.png'),
+	8: require('../../assets/images/species/shark.png'),
+	9: require('../../assets/images/species/shark.png'),
+	10: require('../../assets/images/species/shark.png'),
+	11: require('../../assets/images/species/shark.png'),
+	12: require('../../assets/images/species/shark.png'),
+	13: require('../../assets/images/species/shark.png'),
+	14: require('../../assets/images/species/shark.png'),
+	15: require('../../assets/images/species/shark.png'),
+	16: require('../../assets/images/species/shark.png'),
+	17: require('../../assets/images/species/shark.png'),
+	18: require('../../assets/images/species/shark.png'),
+	19: require('../../assets/images/species/shark.png'),
+	20: require('../../assets/images/species/shark.png'),
+	21: require('../../assets/images/species/shark.png'),
+	22: require('../../assets/images/species/shark.png'),
+	23: require('../../assets/images/species/shark.png'),
+	24: require('../../assets/images/species/shark.png'),
+	25: require('../../assets/images/species/shark.png'),
+	26: require('../../assets/images/species/shark.png'),
+	27: require('../../assets/images/species/shark.png'),
+	28: require('../../assets/images/species/shark.png'),
+	29: require('../../assets/images/species/shark.png'),
+	30: require('../../assets/images/species/shark.png'),
+	31: require('../../assets/images/species/shark.png'),
+	32: require('../../assets/images/species/shark.png'),
+	33: require('../../assets/images/species/shark.png'),
+	34: require('../../assets/images/species/shark.png'),
+	35: require('../../assets/images/species/shark.png'),
+	36: require('../../assets/images/species/shark.png'),
+	37: require('../../assets/images/species/shark.png'),
+	38: require('../../assets/images/species/shark.png'),
+	39: require('../../assets/images/species/shark.png'),
+	40: require('../../assets/images/species/shark.png'),
+	41: require('../../assets/images/species/shark.png'),
+	42: require('../../assets/images/species/shark.png'),
+	43: require('../../assets/images/species/shark.png'),
+	44: require('../../assets/images/species/shark.png'),
+	45: require('../../assets/images/species/shark.png'),
+	46: require('../../assets/images/species/shark.png'),
+	47: require('../../assets/images/species/shark.png'),
+	48: require('../../assets/images/species/shark.png'),
+	49: require('../../assets/images/species/shark.png'),
+	50: require('../../assets/images/species/shark.png'),
+	51: require('../../assets/images/species/shark.png'),
+}
+
+export const getSpeciesImage = id => SPECIES_IMAGES[id] || null
+
+export const preloadSpeciesImages = async () => {
+	const modules = Object.values(SPECIES_IMAGES)
+	await Promise.all(modules.map(m => Asset.fromModule(m).downloadAsync()))
+}
