@@ -231,7 +231,8 @@ const styles = StyleSheet.create({
 		flex: 1
 	},
 	containerContentScroll: {
-		padding: 15
+		padding: 15,
+		paddingBottom: 30
 	},
 	containerHeaderSpecie: {
 		width: '100%',

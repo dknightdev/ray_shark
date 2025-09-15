@@ -4,7 +4,7 @@ import { Platform, Pressable, StyleSheet, View } from 'react-native'
 import { MaterialCommunityIcons } from '@expo/vector-icons'
 import { COLORS, TEXT_SIZES } from '../globals'
 
-const HeaderPage = () => {
+const HeaderPage = ({ RightButton }) => {
 	const router = useRouter()
 
 	return (
@@ -22,16 +22,19 @@ const HeaderPage = () => {
 					<MaterialCommunityIcons name="arrow-left" size={26} color={COLORS.mono_black3} />
 				</Pressable>
 			</View>
+			{RightButton ? <RightButton /> : null}
 		</View>
 	)
 }
 
 const styles = StyleSheet.create({
 	containerHeader: {
+		width: '100%',
 		flexDirection: 'row',
+		justifyContent: 'space-between',
 		alignItems: 'center',
 		paddingInline: 5,
-		paddingTop: 5,
+		paddingBlock: 3,
 		backgroundColor: COLORS.white1
 	},
 	title: {

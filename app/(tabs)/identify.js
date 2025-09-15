@@ -7,6 +7,7 @@ import { useRouter } from 'expo-router'
 import ImageViewer from 'react-native-image-zoom-viewer'
 
 import { useIsFocused } from '@react-navigation/native'
+import ModalDefineType from '../../components/ModalDefineType'
 import { getSpeciesImage } from '../../config/imageLoader/Species'
 import { COLORS, TEXT_SIZES } from '../../globals'
 
@@ -32,6 +33,7 @@ export default function Identify() {
 	const listRefShark = useRef(null)
 	const listRefRay = useRef(null)
 
+	const [showModalType, setShowModalType] = useState(false)
 	const [viewerVisible, setViewerVisible] = useState(false)
 	const [viewerIndex, setViewerIndex] = useState(0)
 
@@ -109,9 +111,14 @@ export default function Identify() {
 
 	const keyExtractor = useCallback(item => item.key, [])
 
-	const handleStart = useCallback(() => {
-		router.push('/identify/flow')
-	}, [router])
+	const handleStart = () => {
+		setShowModalType(true)
+	}
+
+	const handleSelect = (type) => {
+		setShowModalType(false)
+		router.push(`/identifyFlow?type=${type}`)
+	}
 
 	const onScroll = useCallback((e) => {
 		const { contentOffset, layoutMeasurement, contentSize } = e.nativeEvent
@@ -168,18 +175,22 @@ export default function Identify() {
 				onScroll={onScroll}
 				scrollEventThrottle={16}
 			>
-				<Text style={styles.header}>Identificación</Text>
+				<Text style={styles.header}>Identificación taxonómica mediante clave dicotómica</Text>
 				<Text style={styles.subheader}>Antes de empezar aprende cómo funciona y comienza cuando estés listo</Text>
 
-				<Text style={styles.title}>¿Qué es una clave dicotómica?</Text>
-				<Text style={styles.text}>
-					Una clave dicotómica es una herramienta que permite identificar organismos vivos, como plantas y animales, mediante una serie de preguntas con dos opciones cada una. Al responder a estas preguntas, se va reduciendo el número de posibles especies hasta llegar a la identificación correcta.
-				</Text>
+				<View style={styles.section1}>
+					<Text style={styles.title}>¿Qué es una clave dicotómica?</Text>
+					<Text style={styles.text}>
+						Una clave dicotómica es una herramienta que permite identificar organismos vivos, como plantas y animales, mediante una serie de preguntas con dos opciones cada una. Al responder a estas preguntas, se va reduciendo el número de posibles especies hasta llegar a la identificación correcta.
+					</Text>
+				</View>
 
-				<Text style={styles.title}>Cobertura</Text>
-				<Text style={styles.text}>
-					Actualmente, la clave dicotómica cubre todas las especies de tiburones y rayas que se encuentran en aguas Colombianas. Con esta herramienta, podrás identificar el orden, familia y género de cada especie que se encuentre en esta región.
-				</Text>
+				<View style={styles.section2}>
+					<Text style={styles.title}>Cobertura</Text>
+					<Text style={styles.text}>
+						Actualmente, la clave dicotómica cubre todas las especies de tiburones y rayas que se encuentran en aguas colombianas. Con esta herramienta, podrás identificar el orden, familia y género de cada especie que se encuentre en esta región.
+					</Text>
+				</View>
 
 				<Text style={styles.title}>Te ayudamos a identificar especies</Text>
 				<Text style={styles.text}>
@@ -287,6 +298,8 @@ export default function Identify() {
 					backgroundColor={COLORS.mono_black1}
 				/>
 			</Modal>
+
+			<ModalDefineType handleSelect={handleSelect} handleClose={() => setShowModalType(false)} visible={showModalType} />
 		</View>
 	)
 }
@@ -306,13 +319,26 @@ const styles = StyleSheet.create({
 	header: {
 		fontSize: TEXT_SIZES.veryBig,
 		color: COLORS.mono_black3,
-		fontWeight: 'bold'
+		fontWeight: '500'
 	},
 	subheader: {
-		marginTop: 5,
 		fontSize: TEXT_SIZES.medium,
 		color: COLORS.mono_black3,
 		fontWeight: '500'
+	},
+	section1: {
+		paddingBlock: 8,
+		marginTop: 12,
+		marginBottom: 8,
+		borderTopWidth: 1,
+		borderBottomWidth: 1,
+		borderColor: COLORS.white4
+	},
+	section2: {
+		paddingBottom: 10,
+		marginBottom: 12,
+		borderBottomWidth: 1,
+		borderColor: COLORS.white4
 	},
 	carousel: {
 		marginTop: 15
@@ -340,7 +366,6 @@ const styles = StyleSheet.create({
 		fontWeight: 'bold'
 	},
 	title: {
-		marginTop: 10,
 		fontSize: TEXT_SIZES.medium,
 		color: COLORS.mono_black3,
 		fontWeight: 'bold'

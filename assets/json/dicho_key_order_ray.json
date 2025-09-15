@@ -1,0 +1,62 @@
+[
+	{
+		"id": 1,
+		"description": "¿Dos aletas dorsales y aleta caudal, o una/ninguna dorsal?",
+		"options": [
+			{
+				"code": "a",
+				"text": "Dos aletas dorsales y aleta caudal",
+				"next": 2
+			},
+			{
+				"code": "b",
+				"text": "Una aleta dorsal o ninguna",
+				"next": 3
+			}
+		]
+	},
+	{
+		"id": 2,
+		"description": "Forma del disco",
+		"options": [
+			{
+				"code": "a",
+				"text": "Disco triangular o prolongado",
+				"result": {
+					"name": "Rhinopristiformes",
+					"dicho_keys": ["1a", "2a"]
+				}
+			},
+			{
+				"code": "b",
+				"text": "Disco redondeado o semicircular",
+				"result": {
+					"name": "Torpediniformes",
+					"dicho_keys": ["1a", "2b"]
+				}
+			}
+		]
+	},
+	{
+		"id": 3,
+		"description": "Morfología de aletas pélvicas",
+		"options": [
+			{
+				"code": "a",
+				"text": "Aletas pélvicas bilobuladas",
+				"result": {
+					"name": "Rajiformes",
+					"dicho_keys": ["1b", "3a"]
+				}
+			},
+			{
+				"code": "b",
+				"text": "Aletas pélvicas con un lóbulo",
+				"result": {
+					"name": "Myliobatiformes",
+					"dicho_keys": ["1b", "3b"]
+				}
+			}
+		]
+	}
+]

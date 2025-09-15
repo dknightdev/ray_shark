@@ -5,6 +5,7 @@ import Realm, { BSON } from 'realm'
 
 import { useMainStore } from '../../store/mainStore'
 
+import DichoSchemas from './models/Dicho'
 import { FamiliesSchema } from "./models/Families"
 import { GendersSchema } from "./models/Genders"
 import { GlossarySchema } from "./models/Glossary"
@@ -23,10 +24,14 @@ import SpeciesData from "../../assets/json/species.json"
 import StateConservationData from '../../assets/json/state_conservation.json'
 import TypesData from "../../assets/json/types.json"
 
+import DichoKeyOrderRay from "../../assets/json/dicho_key_order_ray.json"
+import DichoKeyOrderShark from "../../assets/json/dicho_key_order_shark.json"
+
 const RealmContext = createContext()
 
 const realmConfig = {
 	schema: [
+		...DichoSchemas,
 		LocationsSchema,
 		TypesSchema,
 		OrdersSchema,
@@ -36,7 +41,7 @@ const realmConfig = {
 		GlossarySchema,
 		StateConservationSchema
 	],
-	schemaVersion: 3
+	schemaVersion: 4
 }
 
 export const RealmProvider = ({ children }) => {
@@ -47,6 +52,20 @@ export const RealmProvider = ({ children }) => {
 		return new Promise((resolve) => {
 			setTimeout(() => {
 				realmInstance.write(() => {
+					realmInstance.create('DichoKeyTree', {
+						_id: new BSON.ObjectId(),
+						type: "shark",
+						level: "order",
+						nodes: DichoKeyOrderShark
+					})
+
+					realmInstance.create('DichoKeyTree', {
+						_id: new BSON.ObjectId(),
+						type: "ray",
+						level: "order",
+						nodes: DichoKeyOrderRay
+					})
+
 					LocationsData.forEach(item => {
 						realmInstance.create('Locations', {
 							_id: new BSON.ObjectId(),

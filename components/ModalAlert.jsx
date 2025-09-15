@@ -169,7 +169,7 @@ const styles = StyleSheet.create({
 		paddingHorizontal: 15
 	},
 	btn_close: {
-		backgroundColor: COLORS.white5
+		backgroundColor: COLORS.white4
 	},
 	btn_secondary: {
 		borderWidth: 1,
