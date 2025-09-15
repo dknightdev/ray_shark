@@ -1,4 +1,4 @@
-package com.anonymous.ray_shark
+package com.dknightdev.ray_shark
 
 import android.app.Application
 import android.content.res.Configuration
