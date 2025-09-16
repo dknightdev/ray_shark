@@ -177,8 +177,8 @@ const inputStyles = StyleSheet.create({
 	containerrightIcon: {
 		position: 'absolute',
 		right: 10,
-		top: '50%',
-		transform: [{ translateY: '-50%' }],
+		top: 0,
+		bottom: 0,
 
 		justifyContent: 'center',
 		alignItems: 'center',

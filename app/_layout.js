@@ -1,8 +1,10 @@
 import 'react-native-gesture-handler'
 import 'react-native-reanimated'
 
+import * as NavigationBar from 'expo-navigation-bar'
 import { Stack } from 'expo-router'
 import { StatusBar } from 'expo-status-bar'
+import { useEffect } from 'react'
 import { View } from 'react-native'
 import { GestureHandlerRootView } from 'react-native-gesture-handler'
 import { SafeAreaProvider, useSafeAreaInsets } from 'react-native-safe-area-context'
@@ -18,6 +20,12 @@ import { useMainStore } from '../store/mainStore'
 const AppShell = () => {
 	const { loading, alert, modalDefinition, modalStateConservation } = useMainStore()
 	const insets = useSafeAreaInsets()
+
+	useEffect(() => {
+		NavigationBar.setBackgroundColorAsync(COLORS.mono_dark)
+		NavigationBar.setButtonStyleAsync('light')
+		NavigationBar.setBorderColorAsync('transparent')
+	}, [])
 
 	return (
 		<>

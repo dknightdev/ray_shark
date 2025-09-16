@@ -327,7 +327,7 @@ const styles = StyleSheet.create({
 		fontWeight: '500'
 	},
 	section1: {
-		paddingBlock: 8,
+		paddingVertical: 8,
 		marginTop: 12,
 		marginBottom: 8,
 		borderTopWidth: 1,
@@ -392,7 +392,7 @@ const styles = StyleSheet.create({
 	},
 	cta: {
 		marginTop: 25,
-		paddingBlock: 6,
+		paddingVertical: 6,
 		borderRadius: 10,
 		gap: 8,
 		backgroundColor: COLORS.mono_dark,

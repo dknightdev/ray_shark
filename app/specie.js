@@ -315,7 +315,7 @@ const styles = StyleSheet.create({
 		backgroundColor: COLORS.white1
 	},
 	pressableLinear: {
-		paddingBlock: 5,
+		paddingVertical: 5,
 		paddingHorizontal: 10,
 		gap: 1
 	},
@@ -325,7 +325,7 @@ const styles = StyleSheet.create({
 		gap: 8
 	},
 	containerBodyLinearSpecie: {
-		paddingBlock: 5,
+		paddingVertical: 5,
 		paddingHorizontal: 10,
 		gap: 1,
 		borderWidth: 1,

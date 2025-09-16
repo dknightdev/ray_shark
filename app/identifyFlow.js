@@ -326,7 +326,7 @@ const styles = StyleSheet.create({
 	container: {
 		flex: 1,
 		backgroundColor: COLORS.white1,
-		paddingInline: 15
+		paddingHorizontal: 15
 	},
 	containerHeaderBtn: {
 		borderRadius: 50,
@@ -349,7 +349,7 @@ const styles = StyleSheet.create({
 		borderBottomColor: COLORS.white5
 	},
 	content: {
-		paddingBlock: 15,
+		paddingVertical: 15,
 		gap: 8
 	},
 	stepTitle: {

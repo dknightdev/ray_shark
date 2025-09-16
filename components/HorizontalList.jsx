@@ -85,7 +85,7 @@ const listStyles = StyleSheet.create({
 		borderRadius: 5
 	},
 	cardHorizontal: {
-		paddingBlock: 5,
+		paddingVertical: 5,
 		paddingHorizontal: 10,
 		borderWidth: 1,
 		borderRadius: 5,

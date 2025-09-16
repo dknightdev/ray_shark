@@ -33,8 +33,8 @@ const styles = StyleSheet.create({
 		flexDirection: 'row',
 		justifyContent: 'space-between',
 		alignItems: 'center',
-		paddingInline: 5,
-		paddingBlock: 3,
+		paddingHorizontal: 5,
+		paddingVertical: 3,
 		backgroundColor: COLORS.white1
 	},
 	title: {

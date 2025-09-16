@@ -7,7 +7,7 @@
 		"icon": "./assets/images/icon.png",
 		"scheme": "rayshark",
 		"userInterfaceStyle": "automatic",
-		"newArchEnabled": false,
+		"newArchEnabled": true,
 		"ios": {
 			"supportsTablet": true
 		},
@@ -38,6 +38,12 @@
 			],
 			"expo-secure-store",
 			"expo-asset"
-		]
+		],
+		"extra": {
+			"router": {},
+			"eas": {
+				"projectId": "af60db9c-226e-4126-925b-88e4f10bef13"
+			}
+		}
 	}
 }
